@@ -1,0 +1,63 @@
+.page-section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    background-color: var(--bg);
+    color: var(--text);
+    overflow: hidden;
+}
+
+
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+}
+
+
+.about-left {
+    flex: 1;
+}
+
+.about-heading {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.emoji {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.about-right {
+    flex: 2;
+    padding-left: 4rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+.yellow-blob {
+    width: 200px;
+    height: 200px;
+    background-color: #ffe600;
+    top: 20%;
+    left: -100px;
+}
+
+.gray-blob {
+    width: 250px;
+    height: 250px;
+    background-color: #ccc;
+    bottom: 10%;
+    right: -120px;
+}

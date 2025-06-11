@@ -1,0 +1,11 @@
+body.light {
+    --bg: #ffffff;
+    --text: #000000;
+    --accent: #222222;
+}
+
+body.dark {
+    --bg: #111111;
+    --text: #ffffff;
+    --accent: #ffe600;
+}

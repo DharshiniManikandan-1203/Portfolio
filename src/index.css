@@ -1,0 +1,13 @@
+/* Light theme (default) */
+body.light {
+    --bg: #ffffff;
+    --text: #000000;
+    --accent: #222222;
+}
+
+/* Dark theme */
+body.dark {
+    --bg: #111111;
+    --text: #ffffff;
+    --accent: #ffe600;
+}

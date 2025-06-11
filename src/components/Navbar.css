@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem;
+    background: var(--bg);
+    color: var(--text);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-left {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navbar-center a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+}
+
+.navbar-center a:hover {
+    border-bottom: 2px solid var(--accent);
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}

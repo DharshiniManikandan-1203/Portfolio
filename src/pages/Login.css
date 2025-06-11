@@ -1,0 +1,12 @@
+.login-bg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    color: white;
+    background-color: cornflowerblue;
+}

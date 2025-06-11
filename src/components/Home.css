@@ -1,0 +1,133 @@
+.home-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.home-left {
+    flex: 1;
+    min-width: 280px;
+}
+
+.home-badge {
+    background: #00d4ff;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: var(--accent);
+}
+
+.home-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn.orange {
+    background-color: #ff6b00;
+    color: white;
+}
+
+.btn.dark {
+    background-color: #000;
+    color: white;
+}
+
+.home-socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.home-right {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 280px;
+}
+
+.yellow-blob {
+    width: 240px;
+    height: 240px;
+    background-color: #ffe600;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    z-index: 0;
+}
+
+.home-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Responsive layout for smaller devices */
+@media (max-width: 768px) {
+    .home-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-left {
+        align-items: center;
+    }
+
+    .home-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .yellow-blob {
+        top: -10px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .home-image {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.get-in-touch-btn {
+    height: 44px;
+}
