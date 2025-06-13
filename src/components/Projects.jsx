@@ -10,10 +10,11 @@ const projectList = [
         image: 'https://via.placeholder.com/300x200',
     },
     {
-        title: 'Portfolio Website',
+        title: 'My Portfolio',
         description: 'A simple and responsive personal portfolio built with ReactJS.',
         image: 'https://via.placeholder.com/300x200',
     },
+
 ];
 
 export default function Projects() {

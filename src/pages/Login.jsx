@@ -11,7 +11,7 @@ function Login() {
 
     useEffect(() => {
         if (isAuthenticated()) {
-            navigate('/home');
+            navigate('/');
         }
     }, [navigate]);
 
@@ -19,7 +19,7 @@ function Login() {
         e.preventDefault();
         const result = loginUser(email, password);
         if (result.success) {
-            navigate('/home');
+            navigate('/');
         } else {
             alert(result.message);
         }
